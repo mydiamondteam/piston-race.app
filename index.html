@@ -63,7 +63,9 @@
 		  get: (searchParams, prop) => searchParams.get(prop),
 		});
 		
-		refNode.innerText = "Referral: " + params.ref;	
+		if(params.ref){
+			refNode.innerText = "Referral: " + params.ref;	
+		}
 
 	</script>
 </body>
