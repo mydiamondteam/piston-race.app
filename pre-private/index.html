@@ -1,1 +1,74 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/pre-private/favicon.ico"><title>piston-pre-privatesale</title><script defer="defer" src="/pre-private/js/chunk-vendors.516dce7d.js"></script><script defer="defer" src="/pre-private/js/app.08a5b6d8.js"></script><link href="/pre-private/css/chunk-vendors.6b37f9c0.css" rel="stylesheet"><link href="/pre-private/css/app.6e019a8d.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but piston-pre-privatesale doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<html>
+<head>
+<title>PISTON RACE - coming soon</title>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
+<style>
+	body {
+		background-color: #175a86;
+	}
+	
+	.centerMiddle {
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 /*height: 1000px;*/
+	}
+	
+	img {
+		 width: 70%; 
+		 max-width: 1251px;
+	}	
+	h2 {
+		font-family: 'Fugaz One', cursive!important;
+		color: white!important;
+		font-size: 28pt;
+	}
+	h3 {
+		font-family: 'Fugaz One', cursive!important;
+		color: white!important;
+		font-size: 16pt;
+	}
+	
+	h4 {
+		font-family: 'Fugaz One', cursive!important;
+		color: black!important;
+		font-size: 12pt;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+</style>
+</head>
+<body>
+	<div class="centerMiddle">
+		<img style="" src="../images/piston-race-02.png" /> 
+	</div>
+	<div class="centerMiddle">		
+		<h2>The race will begin on 3rd April 2022</h2>
+		
+	</div>
+	<div class="centerMiddle">		
+		<a id="website_link" href="https://piston-token.com"><h3>PISTON-TOKEN.COM</h3></a>
+	</div>
+	
+	<div class="centerMiddle">		
+		<h4 id="referral"></h4>
+	</div>
+	
+	<script>
+		let refNode = document.getElementById("referral");
+		let websiteLink = document.getElementById("website_link");
+		
+		const params = new Proxy(new URLSearchParams(window.location.search), {
+		  get: (searchParams, prop) => searchParams.get(prop),
+		});
+		
+		if(params.ref){
+			refNode.innerText = "Referral: " + params.ref;	
+			websiteLink.href = "https://piston-token.com/?ref=" + params.ref;			
+		}
+
+	</script>
+</body>
+</html>
