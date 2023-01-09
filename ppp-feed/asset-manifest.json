@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a052b48c.chunk.css",
+    "main.js": "./static/js/main.3622cd1d.chunk.js",
+    "main.js.map": "./static/js/main.3622cd1d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.28924fa0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.28924fa0.js.map",
+    "static/js/2.2dba8bdc.chunk.js": "./static/js/2.2dba8bdc.chunk.js",
+    "static/js/2.2dba8bdc.chunk.js.map": "./static/js/2.2dba8bdc.chunk.js.map",
+    "static/js/3.15a934e4.chunk.js": "./static/js/3.15a934e4.chunk.js",
+    "static/js/3.15a934e4.chunk.js.map": "./static/js/3.15a934e4.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.a052b48c.chunk.css.map": "./static/css/main.a052b48c.chunk.css.map",
+    "static/js/2.2dba8bdc.chunk.js.LICENSE.txt": "./static/js/2.2dba8bdc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/High Speed.cae45ea6.ttf",
+    "static/media/metamask.55d59196.png": "./static/media/metamask.55d59196.png",
+    "static/media/trustwallet.8de17c9e.png": "./static/media/trustwallet.8de17c9e.png",
+    "static/media/walletconnect.1b22e784.png": "./static/media/walletconnect.1b22e784.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28924fa0.js",
+    "static/js/2.2dba8bdc.chunk.js",
+    "static/css/main.a052b48c.chunk.css",
+    "static/js/main.3622cd1d.chunk.js"
+  ]
+}
